@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const PITCH =
-  "Hire a stranger's grandmother to video-call your kids and nag them into eating vegetables: children obey grandma and ignore their parents, so busy parents gladly pay $9 a call.";
+  "Hire a stranger's grandmother to video-call your kids and nag them into eating vegetables: children obey grandma and ignore their parents, so exhausted parents gladly pay $9 a call.";
 
 if (PITCH.length > 200) {
   throw new Error(`pitch is ${PITCH.length} characters, over the 200 limit`);
